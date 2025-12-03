@@ -62,7 +62,7 @@ locals {
 
 module "api_gateway" {
   source                = "nurdsoft/api-gateway/google"
-  version               = "~> 1.0"
+  version               = "0.1.0"
   
   project_id            = var.project_id
   region                = var.region
